@@ -1,0 +1,46 @@
+{
+  "name": "@itross/fp-cbus",
+  "version": "0.1.0",
+  "description": "Fastify plugin for @itross/cbus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itross/fp-cbus.git"
+  },
+  "keywords": [
+    "fastify",
+    "plugin",
+    "cbus",
+    "command",
+    "bus",
+    "command-bus"
+  ],
+  "author": "Luca Stasio <joshuagame@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itross/fp-cbus/issues"
+  },
+  "homepage": "https://github.com/itross/fp-cbus#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@itross/cbus": "^0.1.0",
+    "fastify-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "fastify": "^4.17.0",
+    "tap": "^16.3.4"
+  }
+}
