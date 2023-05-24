@@ -1,6 +1,6 @@
 {
   "name": "@itross/fp-cbus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fastify plugin for @itross/cbus.",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@itross/cbus": "^0.1.1",
+    "@itross/cbus": "^0.1.2",
     "fastify-plugin": "^4.5.0"
   },
   "devDependencies": {
