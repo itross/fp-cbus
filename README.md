@@ -1,11 +1,12 @@
 # fp-cbus
 
-Fastify plugin for @itross/cbus.
-Initial version. Do not use in production.
+Fastify plugin for [@itross/cbus](https://github.com/itross/cbus).
 
 ## Install
 
 ```bash
-npm i @itross/fastify-cbus
+npm i @itross/fp-cbus
 ```
 
+## License
+[MIT](LICENSE)

@@ -16,6 +16,6 @@ async function cbusPlugin (fastify, opts) {
 }
 
 module.exports = fp(cbusPlugin, {
-  fastify: '>=3',
+  fastify: '>=4',
   name: '@itross/fp-cbus'
 })
